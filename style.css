@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:wght@300;400;700&display=swap");
+
+body {
+	background: url("yodabg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "Josefin Sans", sans-serif;
+}
+h1 {
+	color: #8fb0b4b7;
+	padding-top: 30px;
+	font-family: "Anton", sans-serif;
+	font-size: 5rem;
+	text-shadow: 3px 3px 8px black;
+	margin-bottom: 30px;
+}
+textarea {
+	height: 15vh;
+	width: 90%;
+	background-color: rgba(255, 255, 255, 0.4);
+	padding: 10px;
+	margin-bottom: 30px;
+	font-size: larger;
+}
+::placeholder {
+	color: rgb(22, 22, 22);
+}
+#translateBtn {
+	border: 2px solid #c4cacf;
+	background-color: rgba(47, 79, 79, 0);
+	color: #c4cacf;
+	font-size: larger;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+#translateBtn:hover {
+	background-color: #141414;
+	border: 1px solid #c4cacf;
+}
+#outputDiv {
+	height: 15vh;
+	width: 90%;
+	background-color: rgba(255, 255, 255, 0.4);
+	margin: auto;
+	padding: 10px;
+	font-size: larger;
+	color: rgb(22, 22, 22);
+	text-align: left;
+}
+p {
+	color: #c4cacf;
+	font-size: larger;
+}
